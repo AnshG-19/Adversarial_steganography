@@ -1,0 +1,15 @@
+Adversarial Steganography Datasets
+This directory contains the datasets used for training and evaluating the adversarial steganography and steganalysis models. 
+Below are the standard benchmark datasets recommended for this project.
+
+1. BOSSbase 1.01
+Download Links: Kaggle Dataset | DDE Binghamton Database
+Description: BOSSbase 1.01 is a commonly used benchmark dataset for steganography and steganalysis research. 
+Originally created for the "Break Our Steganographic System" (BOSS) competition, it consists of 10,000 grayscale images. 
+For many modern deep learning implementations, these images are often cropped or resized to 256x256 pixels.
+
+2. BOWS-2 (Break Our Watermarking System 2)
+Download Link: BOWS-2 Original Dataset (.tgz)
+Description: Originally developed for an image watermarking competition, the BOWS-2 dataset is frequently utilized in the steganography domain. 
+In steganalysis research, it is highly common to combine this dataset with BOSSbase to expand the available training data. 
+This significantly helps prevent overfitting when training complex deep neural networks.
