@@ -1,0 +1,21 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+
+# Datasets & Large Checkpoints
+dataset/*.zip
+dataset/*.tgz
+dataset/BOSSbase/
+dataset/ALASKA2/
+*.pth
+*.pt
+*.onnx
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
